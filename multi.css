@@ -1,0 +1,274 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 100px;
+
+}
+
+.conteniner .button {
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.heading-primary {
+    color: navy;
+    margin-left: 10 px;
+}
+
+.heading-secondary {
+    color: navy;
+    text-align: center;
+}
+
+.main-nav svg {
+    font-size: 10px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+}
+
+.main-nav {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(3, 3, 50);
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.main-nav ul,
+.sub-nav {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    text-transform: capitalize;
+    padding: 50px;
+
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.sub-nav li {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.sub-nav ul li {
+    color: rgb(3, 3, 41);
+    padding-left: 15px;
+}
+
+.hero {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content {
+    flex: 0 0 50%;
+
+}
+
+.hero-img {
+    flex: 0 0 50%;
+}
+
+.hero-img video {
+    width: 250%;
+    height: 600%;
+}
+
+.container {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(212, 10, 128);
+    padding: 2px 1px;
+    margin-top: 10px;
+    color: white;
+}
+
+.description {
+    height: 25vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 300px;
+
+
+}
+
+.description p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.card {
+    margin-bottom: 2px;
+
+}
+
+.card .icon img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 3px;
+}
+
+.heading {
+    color: rgb(6, 6, 147);
+}
+
+.work img {
+
+    height: 500px;
+    width: 1125px;
+}
+
+.description button {
+    width: 200px;
+    justify-content: center;
+    display: inline;
+    margin-left: 200px;
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.description h1 {
+    color: rgb(8, 8, 105);
+}
+
+.partners img {
+    display: flex;
+    width: 30%;
+    height: 25%;
+    margin-left: 5px;
+
+}
+
+.partners {
+    display: flex;
+}
+
+.container3 {
+    margin-top: 25px;
+
+}
+
+.description h3 {
+    color: rgb(11, 11, 164);
+}
+
+.contact-form form {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.contact-form .row {
+    width: 100%;
+    display: flex;
+
+}
+
+.input1 {
+    width: 50%;
+    margin: 0 10px;
+
+}
+
+.input2 {
+    width: 100%;
+    margin: 0 10px;
+
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+    font-size: 10px;
+    font-weight: 200;
+    width: 100%;
+    border: 2px solid black (0, 0, 3);
+    color: black;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+
+}
+
+.contact-form .row textarea {
+    height: 150px;
+
+}
+
+.contact-form .row input[type="submit"] {
+    background-color: rgb(194, 59, 9);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+@media(max-width:950px) {
+
+    .hero-img,
+    .sub-nav {
+        display: none;
+
+    }
+
+    .content {
+        flex: 0 0 100%;
+    }
+
+    .main-nav {
+        width: 100%;
+
+    }
+
+    .contact-form .row {
+        width: 100%;
+    }
+
+    .contact-form .row {
+        flex-direction: column;
+    }
+
+    .contact-form .input1 .contact-form .input2 {
+        width: 100%;
+    }
+}
